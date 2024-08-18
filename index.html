@@ -21,7 +21,7 @@
 	<meta name="twitter:card" content="" />
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="images/favicon2.png">
+	<link rel="shortcut icon" href="images/favicon1.png">
 
 
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
@@ -50,6 +50,7 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
+
 	</head>
 	<body>
 	<div id="colorlib-page">
@@ -70,28 +71,26 @@
 						<li><a href="#" data-nav-section="education">Education</a></li>
 						<li><a href="#" data-nav-section="skills">Skills</a></li>		
 						<li><a href="#" data-nav-section="experience">Experience</a></li>
-						<li><a href="#" data-nav-section="project">Project</a></li>
-						<li><a href="#" data-nav-section="contact">Contact</a></li>
-			<div id="google_translate_element"></div> 
+						<li><a href="#" data-nav-section="project">Projects</a></li>
+						<!-- <li><a href="#" data-nav-section="contact">Contact</a></li> -->
 
 					</ul>
 				</div>
 			</nav>
-
-			
-			
-
-			<div class="colorlib-footer">
-				<p><small>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-           Copyright <script>document.write(new Date().getFullYear());</script> All rights.
-
+	
+			<div class="colorlib-footer" id="google_translate_element" >
 				<ul>
-					<li><a href="#"><i class="icon-facebook2"></i></a></li>
-					<li><a href="#"><i class="icon-twitter2"></i></a></li>
-					<li><a href="#"><i class="icon-instagram"></i></a></li>
-					<li><a href="#"><i class="icon-linkedin2"></i></a></li>
+					<li><a href="https://github.com/ugi85" target="_blank"><i class="icon-github"></i></a></li>
+					<li><a href="https://youtube.com/@lapan5_dev?si=6D0v-m3o_uf283tA" target="_blank"><i class="icon-youtube"></i></a></li>
+					<li><a href="https://www.facebook.com/sugi.yono.927980?mibextid=ZbWKwL" target="_blank"><i class="icon-facebook2"></i></a></li>
+					<li><a href="https://www.instagram.com/ugi_junkies?igsh=MXg2d250YnNsbmgxaw==" target="_blank"><i class="icon-instagram"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/sugi-yono-99663b136" target="_blank"><i class="icon-linkedin2"></i></a></li>
+					<li><a href="https://ugi85blog.wordpress.com" target="_blank"><i class="icon-wordpress"></i></a></li>
 					
 				</ul>
+				<p><small>&copy;
+           Copyright <script>document.write(new Date().getFullYear());</script> All rights.
+				
 			</div>
 		</aside>
 
@@ -132,7 +131,7 @@
 					   					<div class="desc">
 						   					<h1 style="font-size: 35px; ">I'am <br>a Full Stack Developer</h1>
 												<h2>Crafting solutions, one line of code at a time.</h2>
-												<p><a href="#project" class="btn btn-primary btn-learn">View Portfolio <i class="icon-briefcase3"></i></a></p>
+												<p><a href="#project" data-nav-section="project" class="btn btn-primary btn-learn">View Portfolio <i class="icon-briefcase3"></i></a></p>
 											</div>
 					   				</div>
 					   			</div>
@@ -235,22 +234,26 @@
 									    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 									        <div class="panel-body">
 												<ul>
+													<li><b>MeetAp Mobile Developer</b>
+														<p>- Administrator at MeetAp Mobile Developer <br>
+														</p>
+													</li>
 													<li><b>Dicoding Academy</b>
-														<p>- Belajar membuat aplikasi android  pemula <br>
-														   - Belajar membuat game untuk pemula
+														<p>- Learn to make Android applications for beginners <br>
+															- Learn to make games for beginners
 														</p>
 													</li>
 													<li><b>BuildWithAngga</b>
-														<p>- FullStack Web Development Project Ujian Online CBT<br> 
-														   - FullStack Web Development Booking Paket Travel Online <br>
-														   - WordPress and Elementory Mastery Bikin Website Profesional Untuk Portfolio <br>
+														<p>- FullStack Web Development Project CBT Online Exam<br> 
+															- FullStack Web Development Booking Online Travel Packages <br>
+															- WordPress and Elementory Mastery Create a Professional Website for Your Portfolio <br>
 														</p>
 													</li>
 													<li><b>Jago Flutter CodeWithBahri</b>
 														<p>- FullStack Flutter Laravel E-Commerce Midtrans Payment & Firebase Push Notification<br> 
-														   - FullStack Flutter Laravel Aplikasi Absensi Dengan Face Recognition & GPS Location<br> 
-														   - Flutter Google AI Membuat Aplikasi Chat Personal Assistant Dengan Google Generative AI <br>
-														   - Flutter Basic Firebase Membuat Aplikasi Chating Realtime <br>
+														   - FullStack Flutter Laravel attendance application with Face Recognition & GPS Location<br> 
+														   - Flutter Google AI Development Application Chat Personal Assistant with Google Generative AI <br>
+														   - Flutter Basic Firebase Development Application Chating Realtime <br>
 														</p>
 													</li>
 													<li><b>Skill Academy by Ruangguru</b>
@@ -258,7 +261,7 @@
 														</p>
 													</li>
 													<li><b>Kampus Biner</b>
-														<p>- Bootcamp Online Dasar-dasar Wifi Cyber Security <br> 
+														<p>- Bootcamp Online Basic Wifi Cyber Security <br> 
 														</p>
 													</li>
 													<li><b>Gats Computer Bogor</b>
@@ -537,6 +540,8 @@
 				</div>
 			</section>
 
+
+
 			<section class="colorlib-blog" data-section="project" id="project">
 				<div class="colorlib-narrow-content">
 					<div class="row">
@@ -548,109 +553,89 @@
 					<div class="row">
 						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/smart-day.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<a href="http://solidbogor.atwebpages.com/" target="_blank" class="blog-img"><img src="images/Kas.png" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
 								<div class="desc">
-									<span><small>June 14, 2024 </small> | <small> Mobile APPS </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Attendance Face Recognition & GPS Location</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									<span><small>December 14, 2020 </small> | <small> Web APPS </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
+									<h3><a href="http://solidbogor.atwebpages.com/" target="_blank">web-based financial information system</a></h3>
+									<p>This system was created with PHP Native using a MYSQL database.
+										created internally for the company where I work so that financial data management can be more effective and efficient</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
 							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/Kas.png" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<a href="https://drive.google.com/drive/folders/12uaQbprQEcfLcyhf-i2vkl5KXqr0ngLw?usp=drive_link" class="blog-img"><img src="images/mixtech.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
 								<div class="desc">
-									<span><small>April 14, 2020 </small> | <small> Web APPS </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Management Accounting System</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									<span><small>June 14, 2024 </small> | <small> Mobile APPS </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
+									<h3><a href="https://drive.google.com/drive/folders/12uaQbprQEcfLcyhf-i2vkl5KXqr0ngLw?usp=drive_link">analytical grade calculation mobile apps</a></h3>
+									<p>This application was created to make it easier for administrators to calculate analysis level results.</p>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInTop">
+							<div class="blog-entry">
+								<a href="blog.html" class="blog-img"><img src="images/smart-day.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<div class="desc">
+									<span><small>April 14, 2024 </small> | <small>mobile apps</small> | <small> <i class="icon-bubble3"></i> 4</small></span>
+									<h3><a href="blog.html">attendance application mobile face Recognition & geolocation</a></h3>
+									<p>Full stack application created with Laravel as API and admin client.
+										For mobile I use Flutter and several dependency libraries</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					
+
+					 <!-- Proyek tambahan yang akan muncul saat Load More diklik -->
+					 <div id="more-blogs" class="row" style="display:none;">
+						<div class="col-md-4 col-sm-6 animate-box blog-post">
+							<div class="blog-entry">
+								<a href="blog.html" class="blog-img"><img src="images/game.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<div class="desc">
+									<span><small>August 20, 2020 </small> | <small> Game Apps </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
+									<h3><a href="blog.html">educational game sorting waste</a></h3>
+									<p>This game application was created using Unity 3D. to fulfill the requirements of my thesis assignment.</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/pet-shop.png" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<a href="http://solidbogor.atwebpages.com/" target="_blank" class="blog-img"><img src="images/soon.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
 								<div class="desc">
-									<span><small>April 14, 2024 </small> | <small> PET Shop E-Commerce </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">E-Commerce Pet Shop</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									<span><small>December 14, 2020 </small> | <small> Web APPS </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
+									<h3><a href="http://solidbogor.atwebpages.com/" target="_blank">coming soon</a></h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+									</p>
 								</div>
 							</div>
 						</div>
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="blog-entry">
+								<a href="https://drive.google.com/drive/folders/12uaQbprQEcfLcyhf-i2vkl5KXqr0ngLw?usp=drive_link" class="blog-img"><img src="images/soon.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<div class="desc">
+									<span><small>June 14, 2024 </small> | <small> Mobile APPS </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
+									<h3><a href="https://drive.google.com/drive/folders/12uaQbprQEcfLcyhf-i2vkl5KXqr0ngLw?usp=drive_link">comin soon</a></h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+										.</p>
+								</div>
+							</div>
+						</div>
+						
 					</div>
+					
+					
 					</div>
 					<div class="row">
 						<div class="col-md-12 animate-box">
-							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
+							<button id="btn-show-more" class="btn btn-primary btn-lg btn-load-more">Show More <i class="icon-reload"></i></button>
 						</div>
 					</div>
+					
 				</div>
-			</section>
+			</section> 
 
-			<section class="colorlib-contact" data-section="contact">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Get in Touch</span>
-							<h2 class="colorlib-heading">Contact</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-5">
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-globe-outline"></i>
-								</div>
-								<div class="colorlib-text">
-									<p><a href="#">info@domain.com</a></p>
-								</div>
-							</div>
-
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-map"></i>
-								</div>
-								<div class="colorlib-text">
-									<p>198 West 21th Street, Suite 721 New York NY 10016</p>
-								</div>
-							</div>
-
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-phone"></i>
-								</div>
-								<div class="colorlib-text">
-									<p><a href="tel://">+123 456 7890</a></p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-7 col-md-push-1">
-							<div class="row">
-								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
-									<form action="">
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Name">
-										</div>
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Email">
-										</div>
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Subject">
-										</div>
-										<div class="form-group">
-											<textarea name="" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
-										</div>
-										<div class="form-group">
-											<input type="submit" class="btn btn-primary btn-send-message" value="Send Message">
-										</div>
-									</form>
-								</div>
-								
-							</div>
-						</div>
-					</div>
-				</div>
-
-			</section>
 
 
 
@@ -688,7 +673,18 @@
         includedLanguages: 'en,id' // Daftar bahasa yang diizinkan
       }, 'google_translate_element');
     }
+	
+
+	document.getElementById("btn-show-more").addEventListener("click", function() {
+    document.getElementById("more-blogs").style.display = "flex";
+    document.getElementById("more-blogs").style.flexWrap = "wrap";
+    this.style.display = "none";
+    });
+
+
   </script>
+
+ 
 
 	</body>
 </html>

@@ -51,10 +51,10 @@
 			$('#colorlib-counter').waypoint( function( direction ) {
 										
 				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
-					setTimeout( counter , 400);					
+					setTimeout( counter , 80);					
 					$(this.element).addClass('animated');
 				}
-			} , { offset: '90%' } );
+			} , { offset: '80%' } );
 		}
 	};
 
@@ -85,14 +85,14 @@
 							}
 
 							el.removeClass('item-animate');
-						},  k * 200, 'easeInOutExpo' );
+						},  k * 80, 'easeInOutExpo' );
 					});
 					
 				}, 100);
 				
 			}
 
-		} , { offset: '85%' } );
+		} , { offset: '80%' } );
 	};
 
 
